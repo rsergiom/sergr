@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sergr/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/sergr/static/js/main.5dba2b12.chunk.js",
+    "main.js.map": "/sergr/static/js/main.5dba2b12.chunk.js.map",
+    "runtime-main.js": "/sergr/static/js/runtime-main.dc891b5c.js",
+    "runtime-main.js.map": "/sergr/static/js/runtime-main.dc891b5c.js.map",
+    "static/js/2.75c937b5.chunk.js": "/sergr/static/js/2.75c937b5.chunk.js",
+    "static/js/2.75c937b5.chunk.js.map": "/sergr/static/js/2.75c937b5.chunk.js.map",
+    "static/js/3.64deb2eb.chunk.js": "/sergr/static/js/3.64deb2eb.chunk.js",
+    "static/js/3.64deb2eb.chunk.js.map": "/sergr/static/js/3.64deb2eb.chunk.js.map",
+    "index.html": "/sergr/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/sergr/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.75c937b5.chunk.js.LICENSE.txt": "/sergr/static/js/2.75c937b5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/sergr/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc891b5c.js",
+    "static/js/2.75c937b5.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.5dba2b12.chunk.js"
+  ]
+}
