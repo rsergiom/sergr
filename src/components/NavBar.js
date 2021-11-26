@@ -22,7 +22,7 @@ export default function NavBar() {
 
     return (
         <header>
-            <h3><a href="/">Home</a></h3>
+            <h3><a href="#home">Home</a></h3>
             <nav>
                 <div id="menuBt" onClick={handleClick}>
                     <div></div>
@@ -32,7 +32,7 @@ export default function NavBar() {
                 <ul id="menu">
                     <li><a href="#about" onClick={handleClick}>About</a></li>
                     <li><a href="#skills" onClick={handleClick}>My Skills</a></li>
-                    <li><a href="#work" onClick={handleClick}>Work</a></li>
+                    <li><a href="#projects" onClick={handleClick}>Projects</a></li>
                     <li><a href="#contact" onClick={handleClick}>Contact</a></li>
                 </ul>
             </nav>

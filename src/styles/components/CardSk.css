@@ -1,0 +1,42 @@
+.cardSk {
+  width: 20%;
+  height: 200px;
+  background: var(--second-color);
+  border-radius: 5%;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.cardSk:hover {
+  background: var(--second-color-2);
+}
+.cardSk p {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+  font-weight: 600;
+}
+.cardSk .img {
+  height: calc(100% - 58px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.cardSk .img img {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 920px) {
+  .cardSk {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .cardSk {
+    width: 100%;
+    height: 250px;
+  }
+}

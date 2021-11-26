@@ -10,7 +10,7 @@ export default function Home() {
         <p>Enthusiastic about new technologies and the development of a more digital world </p>
       </div>
       <div className="image">
-        <img src={Image} alt="logo"></img>
+        <img src={Image} alt="logo" />
       </div>
     </div>
   );

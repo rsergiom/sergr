@@ -1,25 +1,25 @@
-header{
-    background: var(--primary-color);
-    display: flex;
-    width: 100%;
-    height: 75px;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
+header {
+  background: var(--primary-color);
+  display: flex;
+  width: 100%;
+  height: 75px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
-#menuBt{
-    display: none;
-    width: 25px;
-    margin: auto 40px auto 0;
-    cursor: pointer;
+#menuBt {
+  display: none;
+  width: 25px;
+  margin: auto 40px auto 0;
+  cursor: pointer;
 }
-#menuBt div{
-    width: 100%;
-    margin-top: 4.5px;
-    height: 2.5px;
-    background-color: white;
+#menuBt div {
+  width: 100%;
+  margin-top: 4.5px;
+  height: 2.5px;
+  background-color: white;
 }
-nav{
+nav {
   margin: auto 0;
 }
 nav ul {
@@ -27,9 +27,9 @@ nav ul {
   align-content: space-between;
   margin: auto 80px auto 0;
 }
-nav ul li{
-    display: block;
-    margin-left: 40px;
+nav ul li {
+  display: block;
+  margin-left: 40px;
 }
 a {
   text-decoration: none;
@@ -40,64 +40,64 @@ a {
 a:hover {
   color: #c0c0c7;
 }
-header h3{
-    margin: auto 0 auto 80px;
+header h3 {
+  margin: auto 0 auto 80px;
 }
-header h3 a{
-    font-size: 20px;
+header h3 a {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 730px) {
-    #menuBt{
-        display: block;
-    }
-    header h3{
-        margin: 20px 0 20px 40px;
-        font-size: 22px;
-    }
-    nav ul{
-        display: none;
-        width: 100%;
-        margin: 70px 0;
-        padding: 0 0 0 0;
-        height: calc(100vh - 70px);
-        top: 0;
-        right: -100%;
-        position: fixed;
-        background: var(--primary-color);
-    }
-    nav ul li{
-        text-align: center;
-        margin: 0;
-        padding: 10% 0;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    .menuON{
-        display: block;
-        animation: actiMenu 0.2s forwards;
-    }
-    .menuOFF{
-        display: block;
-        animation: desacMenu 0.2s forwards;
-    }
+  #menuBt {
+    display: block;
+  }
+  header h3 {
+    margin: 20px 0 20px 40px;
+    font-size: 22px;
+  }
+  nav ul {
+    display: none;
+    width: 100%;
+    margin: 70px 0;
+    padding: 0 0 0 0;
+    height: calc(100vh - 70px);
+    top: 0;
+    right: -100%;
+    position: fixed;
+    background: var(--primary-color);
+  }
+  nav ul li {
+    text-align: center;
+    margin: 0;
+    padding: 10% 0;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  .menuON {
+    display: block;
+    animation: actiMenu 0.2s forwards;
+  }
+  .menuOFF {
+    display: block;
+    animation: desacMenu 0.2s forwards;
+  }
 }
 
 @keyframes desacMenu {
-    from {
-        right: 0%;
-    }
-    to{
-        right: -100%;
-    }
+  from {
+    right: 0%;
+  }
+  to {
+    right: -100%;
+  }
 }
 
 @keyframes actiMenu {
-    from {
-        right: -100%;
-    }
-    to{
-        right: 0%;
-    }
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0%;
+  }
 }
