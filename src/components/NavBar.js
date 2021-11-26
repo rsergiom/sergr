@@ -6,15 +6,17 @@ export default function NavBar() {
     const [Menu, setMenu] = useState(false)
 
     function handleClick(){
-        var e = document.getElementById("menu")
-        if (Menu) {
-            e.classList.remove("menuON");
-            e.classList.add("menuOFF");
-            setMenu(false)
-        } else {
-            e.classList.add("menuON");
-            e.classList.remove("menuOFF");
-            setMenu(true)
+        if (document.body.scrollWidth <= 730){
+            var e = document.getElementById("menu")
+            if (Menu) {
+                e.classList.remove("menuON");
+                e.classList.add("menuOFF");
+                setMenu(false)
+            } else {
+                e.classList.add("menuON");
+                e.classList.remove("menuOFF");
+                setMenu(true)
+            }
         }
     }
 
@@ -28,10 +30,10 @@ export default function NavBar() {
                     <div></div>
                 </div>
                 <ul id="menu">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">My Skills</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" onClick={handleClick}>About</a></li>
+                    <li><a href="#skills" onClick={handleClick}>My Skills</a></li>
+                    <li><a href="#work" onClick={handleClick}>Work</a></li>
+                    <li><a href="#contact" onClick={handleClick}>Contact</a></li>
                 </ul>
             </nav>
         </header>

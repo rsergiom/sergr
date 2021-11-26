@@ -1,0 +1,54 @@
+.home {
+  display: flex;
+  height: calc(100vh - 75px);
+  padding: 75px 0 0 0;
+  margin: 0;
+}
+.home .text,
+.home .image {
+  width: 50%;
+}
+.home .image {
+  display: flex;
+  justify-content: center;
+}
+.home .image img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+.home .text {
+  margin: auto;
+}
+.home .text h2 {
+  margin: 0;
+}
+.home .text h3 {
+  margin: 10px 0;
+}
+.home .text p {
+  width: 60%;
+}
+
+@media screen and (max-width: 1200px) {
+  .home .text p {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .home {
+    display: block;
+    min-height: calc(100vh - 75px);
+  }
+  .home .text,
+  .home .image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .home .text p {
+      width: 100%;
+    }
+  }

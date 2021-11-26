@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +9,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --primary-color: #04001e;
+
+  --primary-color: #000000;
+  --second-color: #ecd8bd;
+  --big-fount: 80px;
+  --half-fount: 45px;
+  --little-fount: 20px;
+
+  --big-2-fount: 60px;
+  --half-2-fount: 30px;
+  --little-2-fount: 18px;
+
+  --big-3-fount: 45px;
+  --half-3-fount: 20px;
+  --little-3-fount: 16px;
 }
 
 code {
