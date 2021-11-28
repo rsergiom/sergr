@@ -1,0 +1,50 @@
+.projectsCrs {
+  width: 100%;
+  min-height: calc(100vh - 75px);
+  padding: 75px 0 0 0;
+}
+.projectsCards {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, calc(calc(100% - 40px) / 3));
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.projectsCrs .button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(15vh);
+}
+.projectsCrs .button button {
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--second-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.projectsCrs .button button:hover {
+  background: var(--second-color);
+}
+.projectsCrs .button button a:hover {
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 920px) {
+  .projectsCards {
+    grid-template-columns: repeat(2, calc(calc(100% - 20px) / 2));
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .projectsCards {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}

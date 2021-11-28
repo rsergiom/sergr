@@ -1,9 +1,8 @@
 .App {
-  color: white;
+  color: var(--text-color);
   position: absolute;
   width: 100%;
   background: var(--primary-color);
-  min-height: 100vh;
 }
 
 section {
@@ -20,35 +19,24 @@ p {
   font-size: var(--little-fount);
 }
 
-@media screen and (max-width: 1200px) {
-  h2 {
-    font-size: var(--big-2-fount);
-  }
-  h3 {
-    font-size: var(--half-2-fount);
-  }
-  p {
-    font-size: var(--little-2-fount);
-  }
-}
-
-@media screen and (max-width: 920px) {
-  h2 {
-    font-size: var(--big-2-fount);
-  }
-  h3 {
-    font-size: var(--half-2-fount);
-  }
-  p {
-    font-size: var(--little-2-fount);
-  }
-}
-
 @media screen and (max-width: 730px) {
   section {
     padding: 0 40px;
   }
 }
+
+@media screen and (max-width: 638px) {
+  h2 {
+    font-size: var(--big-2-fount);
+  }
+  h3 {
+    font-size: var(--half-2-fount);
+  }
+  p {
+    font-size: var(--little-2-fount);
+  }
+}
+
 
 @media screen and (max-width: 420px) {
   h2 {

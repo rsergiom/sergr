@@ -1,11 +1,12 @@
 import "./styles/App.css";
 import NavBar from "./components/NavBar";
-import About from "./content/About";
+// import About from "./content/About";
 import Home from "./content/Home";
 import Skills from "./content/Skills";
-import Projects from "./content/Projects";
-import Contact from "./content/Contact";
+// import Projects from "./content/Projects";
+// import Contact from "./content/Contact";
 import Footer from "./components/Footer";
+import ProjectsCrs from "./content/ProjectsCrs";
 
 function App() {
   return (
@@ -14,18 +15,19 @@ function App() {
       <section id="home">
         <Home />
       </section>
-      <section id="about">
+      {/* <section id="about">
         <About />
-      </section>
+      </section> */}
       <section id="skills">
         <Skills />
       </section>
       <section id="projects">
-        <Projects />
+        {/* <Projects /> */}
+        <ProjectsCrs />
       </section>
-      <section id="contact">
+      {/* <section id="contact">
         <Contact />
-      </section>
+      </section> */}
       <Footer />
     </div>
   );

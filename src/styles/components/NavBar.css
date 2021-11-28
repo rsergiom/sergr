@@ -17,7 +17,7 @@ header {
   width: 100%;
   margin-top: 4.5px;
   height: 2.5px;
-  background-color: white;
+  background-color: var(--text-color);
 }
 nav {
   margin: auto 0;
@@ -33,17 +33,17 @@ nav ul li {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
   font-weight: 600;
   font-size: 16px;
 }
-a:hover {
-  color: #c0c0c7;
+#menu li a:hover {
+  color: var(--text-color-2);
 }
-header h3 {
+header .homeNav {
   margin: auto 0 auto 80px;
 }
-header h3 a {
+header .homeNav {
   font-size: 20px;
 }
 
@@ -51,7 +51,7 @@ header h3 a {
   #menuBt {
     display: block;
   }
-  header h3 {
+  header .homeNav {
     margin: 20px 0 20px 40px;
     font-size: 22px;
   }

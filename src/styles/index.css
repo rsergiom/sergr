@@ -4,25 +4,28 @@ html{
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   --primary-color: #000000;
   --second-color: #161b22;
   --second-color-2: #1e252e;
-  --big-fount: 82px;
-  --half-fount: 42px;
+  --text-color: white;
+  --text-color-2: #c0c0c7;
+
+  --border-radius: 4px;
+
+  --big-fount: 80px;
+  --half-fount: 50px;
   --little-fount: 22px;
 
   --big-2-fount: 62px;
-  --half-2-fount: 32px;
+  --half-2-fount: 40px;
   --little-2-fount: 20px;
 
-  --big-3-fount: 47px;
-  --half-3-fount: 22px;
+  --big-3-fount: 50px;
+  --half-3-fount: 30px;
   --little-3-fount: 18px;
 }
 

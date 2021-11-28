@@ -1,10 +1,10 @@
 .cardSk {
-  width: 20%;
-  height: 200px;
+  width: 100%;
+  height: auto;
   background: var(--second-color);
-  border-radius: 5%;
-  margin: 20px auto;
-  cursor: pointer;
+  border-radius: var(--border-radius);
+  margin: 0;
+  transition: background 0.1s;
 }
 .cardSk:hover {
   background: var(--second-color-2);
@@ -30,13 +30,14 @@
 
 @media screen and (max-width: 920px) {
   .cardSk {
-    width: 250px;
     height: 250px;
   }
 }
-@media screen and (max-width: 340px) {
+
+@media screen and (max-width: 730px) {
   .cardSk {
-    width: 100%;
+    width: 250px;
     height: 250px;
+    margin: 0 auto;
   }
 }
